@@ -5,7 +5,6 @@ body {
   top: 0px;
   width: 1000px;
   height: 666px;
-  z-index: 1;
 }
 
 .clouds {
@@ -14,16 +13,14 @@ body {
   top: 64px;
   width: 1000px;
   height: 603px;
-  z-index: 12;
 }
 
 .logo {
   position: absolute;
   left: 100px;
-  top: 363px;
+  top: 393px;
   width: 50px;
   height: 50px;
-  z-index: 13;
 }
 
 .line {
@@ -32,7 +29,6 @@ body {
   top: 593px;
   width: 800px;
   height: 1px;
-  z-index: 11;
 }
 
 .up {
@@ -44,10 +40,9 @@ body {
   position: absolute;
   left: 100px;
   top: 61.902px;
-  z-index: 9;
 }
 
-h1 {
+.name {
   font-size: 25px;
   font-family: "Arial";
   color: rgb(255, 255, 255);
@@ -55,8 +50,7 @@ h1 {
   text-align: left;
   position: absolute;
   left: 100px;
-  top: 119.046px;
-  z-index: 8;
+  top: 100px;
 }
 
 .headtext {
@@ -69,7 +63,11 @@ h1 {
   top: 166.444px;
   width: 651px;
   height: 30px;
-  z-index: 7;
+  z-index: 1;
+}
+
+a {
+  color: white;
 }
 
 .left {
@@ -79,10 +77,10 @@ h1 {
   line-height: 1.3;
   position: absolute;
   left: 99px;
-  top: 229.302px;
+  top: 229px;
   width: 350px;
   height: 106px;
-  z-index: 6;
+  white-space: nowrap;
 }
 
 .right {
@@ -92,10 +90,9 @@ h1 {
   line-height: 1.3;
   position: absolute;
   left: 497.107px;
-  top: 230.302px;
+  top: 229px;
   width: 394px;
   height: 91px;
-  z-index: 5;
 }
 
 .final {
@@ -108,7 +105,6 @@ h1 {
   top: 382.444px;
   width: 713px;
   height: 44px;
-  z-index: 4;
 }
 
 .end {
@@ -120,5 +116,4 @@ h1 {
   position: absolute;
   left: 99px;
   top: 622.301px;
-  z-index: 3;
 }
