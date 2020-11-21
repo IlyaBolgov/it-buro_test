@@ -1,0 +1,9 @@
+body {
+  background-image: url(images/Background.png);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1000px;
+  height: 666px;
+  z-index: 1;
+}
